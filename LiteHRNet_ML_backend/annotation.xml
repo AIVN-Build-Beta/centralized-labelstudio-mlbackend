@@ -1,0 +1,25 @@
+<View>
+  <KeyPointLabels name="kp-1" toName="img-1">
+    <Label value="Nose" background="#5CDBD3"/>
+    <Label value="Left Eye" background="#096DD9"/>
+    <Label value="Right Eye" background="#ADC6FF"/>
+    <Label value="Left Ear" background="#9254DE"/>
+    <Label value="Right Ear" background="#F759AB"/>
+    <Label value="Left Shoulder" background="#FFA39E"/>
+    <Label value="Right Shoulder" background="#D4380D"/>
+    <Label value="Left Elbow" background="#FFC069"/>
+    <Label value="Right Elbow" background="#AD8B00"/>
+    <Label value="Left Wrist" background="#D3F261"/>
+    <Label value="Right Wrist" background="#389E0D"/>
+    <Label value="Left Hip" background="#5CDBD3"/>
+    <Label value="Right Hip" background="#096DD9"/>
+    <Label value="Left Knee" background="#ADC6FF"/>
+    <Label value="Right Knee" background="#9254DE"/>
+    <Label value="Left Ankle" background="#F759AB"/>
+    <Label value="Right Ankle" background="#FFA39E"/>
+  </KeyPointLabels>
+  <RectangleLabels name="bb" toName="img-1">
+    <Label value="Bounding box" background="#000000"/>
+  </RectangleLabels>
+  <Image name="img-1" value="$img"/>
+</View>
